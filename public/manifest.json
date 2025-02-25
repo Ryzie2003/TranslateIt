@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "TranslateIt",
+  "version": "1.0.0",
+  "description": "Translate across the web",
+  "icons": {
+    "32": "icon32.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
