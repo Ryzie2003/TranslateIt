@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "TranslateIt",
+  "name": "StreamTranslations",
   "version": "1.0.0",
   "description": "Translate across the web",
   "icons": {
@@ -13,7 +13,6 @@
     "scripting"
   ],
   "host_permissions": [
-    "http://*/*",
-    "https://*/*"
+    "https://www.netflix.com/*"
   ]
 }
