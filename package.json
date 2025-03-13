@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "deepl": "^1.0.13",
+    "deepl-node": "^1.17.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

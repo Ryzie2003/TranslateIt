@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "StreamTranslations",
+  "name": "ExtraSubs",
   "version": "1.0.0",
-  "description": "Translate across the web",
+  "description": "Extra subtitles for Netflix",
   "icons": {
     "32": "icon32.png"
   },
@@ -10,9 +10,19 @@
     "default_popup": "index.html"
   },
   "permissions": [
-    "scripting"
+    "scripting", "activeTab", "storage"
   ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "host_permissions": [
     "https://www.netflix.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["content.css"],
+      "js": ["content.js"]
+    }
   ]
 }

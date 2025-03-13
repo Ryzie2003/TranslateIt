@@ -3,3 +3,5 @@
 3. Cursor hover translates single words
     a. first figure out on hover to show the word being hovered on
     b. send that word to google translate API
+
+4. hold command to translate multiple words/sentences

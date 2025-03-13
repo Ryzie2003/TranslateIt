@@ -1,0 +1,22 @@
+.subtitle-custom-option.selected {
+    color: #fff; /* Adjust based on your UI */
+}
+
+.subtitle-default-option.selected {
+    color: #fff; /* Adjust based on your UI */
+}
+
+.subtitle-default-option.deselected {
+    color: #aaa; /* Adjust based on your UI */
+}
+
+.player-timedtext.hide {
+    display: none !important;
+}
+
+#custom-subtitles.hide {
+    display: none !important;
+}
+
+
+

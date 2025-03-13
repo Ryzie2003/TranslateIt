@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Netflix Sans;
+    src: url("assets/Netflix Sans Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Netflix Sans;
+    font-weight: bold;
+    src: url("assets/Netflix Sans Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Netflix Sans;
+    font-weight: light;
+    src: url("assets/Netflix Sans Light.otf") format("opentype");
+}
+
+
